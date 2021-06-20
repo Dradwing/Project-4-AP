@@ -2,31 +2,20 @@
 .carousel-item img{width: 100%;height: 90vh;}
 tr th{font-weight: bolder;}
 .first_image{width: 100%;height:auto%;}
-card_img{width: 70%;height:auto;padding-top: 2;padding-bottom: 2;}
+.card_img{width: 70%;height:auto;padding-top: 2;padding-bottom: 2;}
 h6{color: #1a83de;}
 .list{list-style-type:none;}
 .list li{color: #1a83de;padding-bottom: 18%;}
-.small_image{width: 100%;height: auto;}
+.small_image{width: 100vw;height: auto;}
 .list_last{list-style-type: none;}
 .list_last li{color: #1a83de;padding-bottom: 8%; }
 .small_image{width: 100%;max-height:90;}
 ::placeholder{padding-left: 6;}
 input{border-style: none;background-color: white;padding-bottom:10;}
 /* responsive css code*/
-// X-Small devices (portrait phones, less than 576px)
-// No media query for `xs` since this is the default in Bootstrap
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... }
+@media all and (min-width: 765px) and (max-width: 1380px){
+	#firstcard{position: relative;width: 33%;float: left;padding-right:2%;}
+	#secondcard{position: relative;width: 25%;float: left;padding-right:2%;}
+	#thirdcard{position: relative;width: 25%;float: left;margin-top:-2%;}
+}
